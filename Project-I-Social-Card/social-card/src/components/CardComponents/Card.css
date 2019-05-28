@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+.cardMain {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.banner {
+    max-width: 82%;
+    width: 82%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.cardTitle {
+  max-width: 85%;
+  margin-left: 20px;
+}
+.cardTitle strong {
+    margin-bottom: 10px;
+}
+.cardTitle p {
+    margin-bottom: 10px;
+}
+.site {
+    color: grey;
+}
