@@ -1,15 +1,22 @@
-.displayContainer {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: flex-end;
-    max-width: 97%;
-    width: 97%;
-    height: 20%;
-    background-color: black;
-    padding-right: 10px;
-    border: 1px solid grey;
+.button {
+    background: #fff;
+    border: 0.5px solid lightgray;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 25%;
+    height: 5rem;
 }
-.displayContainer h1 {
-    color: white;
+.buttonLarge {
+    border: 0.5px solid lightgray;
+}
+.buttonRed {
+    border: 0.5px solid lightgray;
+}
+.bold .buttonLarge {
+    font-weight: 600;
+}
+.firstRow,.secondRow,.thirdRow,.fourthRow {
+    margin: 0;
+    height: 5rem;
 }

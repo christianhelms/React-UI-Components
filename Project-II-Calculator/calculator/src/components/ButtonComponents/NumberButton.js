@@ -6,7 +6,3 @@ const NumberButton = props => {
 };
 
    export default NumberButton;
-
-const props = {
-  textProp: { str: 'Hello CodeSandbox' }
-};
