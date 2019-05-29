@@ -11,8 +11,8 @@ const ActionButton = () => {
             </div>
         </div>
         <div class="fourthRow">
-            <NumberButton textProp='clear' buttonStyle='buttonLarge' />;
-            <NumberButton textProp='÷' buttonStyle='buttonRed' />;
+            <NumberButton textProp='clear' buttonStyle='buttonLarge' />
+            <NumberButton textProp='&divide;' buttonStyle='buttonRed' />;
         </div>
     </div>
     );
