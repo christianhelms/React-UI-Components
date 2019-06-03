@@ -1,1 +1,23 @@
-/* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.headerRight {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+.logo {
+    padding: 5px;  
+}
+.headerTitle {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.headerTitle p {
+    color: grey;
+    padding: 5px;
+}

@@ -1,0 +1,22 @@
+.button {
+    background: #fff;
+    border: 0.5px solid lightgray;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 25%;
+    height: 5rem;
+}
+.buttonLarge {
+    border: 0.5px solid lightgray;
+}
+.buttonRed {
+    border: 0.5px solid lightgray;
+}
+.bold .buttonLarge {
+    font-weight: 600;
+}
+.firstRow,.secondRow,.thirdRow,.fourthRow {
+    margin: 0;
+    height: 5rem;
+}
